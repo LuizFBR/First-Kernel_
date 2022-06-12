@@ -1,0 +1,198 @@
+----------------------------------------
+drivers/staging/greybus/arche-apb-ctrl.c
+----------------------------------------
+WARNING: DT compatible string "usbffff,2" appears un-documented -- check ./Documentation/devicetree/bindings/
+#468: FILE: drivers/staging/greybus/arche-apb-ctrl.c:468:
++	{ .compatible = "usbffff,2", },
+
+WARNING: DT compatible string vendor "usbffff" appears un-documented -- check ./Documentation/devicetree/bindings/vendor-prefixes.yaml
+#468: FILE: drivers/staging/greybus/arche-apb-ctrl.c:468:
++	{ .compatible = "usbffff,2", },
+
+total: 0 errors, 2 warnings, 0 checks, 491 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+drivers/staging/greybus/arche-apb-ctrl.c has style problems, please review.
+----------------------------------------
+drivers/staging/greybus/arche-platform.c
+----------------------------------------
+CHECK: line length of 101 exceeds 100 columns
+#182: FILE: drivers/staging/greybus/arche-platform.c:182:
++									     WD_STATE_COLDBOOT_TRIG);
+
+WARNING: DT compatible string "google,arche-platform" appears un-documented -- check ./Documentation/devicetree/bindings/
+#620: FILE: drivers/staging/greybus/arche-platform.c:620:
++	{ .compatible = "google,arche-platform", },
+
+WARNING: DT compatible string "google,arche-platform" appears un-documented -- check ./Documentation/devicetree/bindings/
+#626: FILE: drivers/staging/greybus/arche-platform.c:626:
++	{ .compatible = "google,arche-platform", },
+
+WARNING: DT compatible string "usbffff,2" appears un-documented -- check ./Documentation/devicetree/bindings/
+#627: FILE: drivers/staging/greybus/arche-platform.c:627:
++	{ .compatible = "usbffff,2", },
+
+WARNING: DT compatible string vendor "usbffff" appears un-documented -- check ./Documentation/devicetree/bindings/vendor-prefixes.yaml
+#627: FILE: drivers/staging/greybus/arche-platform.c:627:
++	{ .compatible = "usbffff,2", },
+
+total: 0 errors, 4 warnings, 1 checks, 668 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+drivers/staging/greybus/arche-platform.c has style problems, please review.
+----------------------------------------
+drivers/staging/greybus/arche_platform.h
+----------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 28 lines checked
+
+drivers/staging/greybus/arche_platform.h has no obvious style problems and is ready for submission.
+-----------------------------------------
+drivers/staging/greybus/audio_apbridgea.c
+-----------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 205 lines checked
+
+drivers/staging/greybus/audio_apbridgea.c has no obvious style problems and is ready for submission.
+-----------------------------------------
+drivers/staging/greybus/audio_apbridgea.h
+-----------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 133 lines checked
+
+drivers/staging/greybus/audio_apbridgea.h has no obvious style problems and is ready for submission.
+-------------------------------------
+drivers/staging/greybus/audio_codec.c
+-------------------------------------
+WARNING: DT compatible string "toshiba,apb-dummy-codec" appears un-documented -- check ./Documentation/devicetree/bindings/
+#1084: FILE: drivers/staging/greybus/audio_codec.c:1084:
++	{ .compatible = "toshiba,apb-dummy-codec", },
+
+total: 0 errors, 1 warnings, 0 checks, 1104 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+drivers/staging/greybus/audio_codec.c has style problems, please review.
+-------------------------------------
+drivers/staging/greybus/audio_codec.h
+-------------------------------------
+CHECK: struct mutex definition without comment
+#73: FILE: drivers/staging/greybus/audio_codec.h:73:
++	struct mutex lock;
+
+total: 0 errors, 0 warnings, 1 checks, 242 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+drivers/staging/greybus/audio_codec.h has style problems, please review.
+----------------------------------
+drivers/staging/greybus/audio_gb.c
+----------------------------------
+total: 0 errors, 0 warnings, 0 checks, 225 lines checked
+
+drivers/staging/greybus/audio_gb.c has no obvious style problems and is ready for submission.
+--------------------------------------
+drivers/staging/greybus/audio_helper.c
+--------------------------------------
+CHECK: Macro argument reuse 'dir' - possible side-effects?
+#12: FILE: drivers/staging/greybus/audio_helper.c:12:
++#define gbaudio_dapm_for_each_direction(dir) \
++	for ((dir) = SND_SOC_DAPM_DIR_IN; (dir) <= SND_SOC_DAPM_DIR_OUT; \
++		(dir)++)
+
+total: 0 errors, 0 warnings, 1 checks, 202 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+drivers/staging/greybus/audio_helper.c has style problems, please review.
+--------------------------------------
+drivers/staging/greybus/audio_helper.h
+--------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 17 lines checked
+
+drivers/staging/greybus/audio_helper.h has no obvious style problems and is ready for submission.
+---------------------------------------
+drivers/staging/greybus/audio_manager.c
+---------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 186 lines checked
+
+drivers/staging/greybus/audio_manager.c has no obvious style problems and is ready for submission.
+---------------------------------------
+drivers/staging/greybus/audio_manager.h
+---------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 81 lines checked
+
+drivers/staging/greybus/audio_manager.h has no obvious style problems and is ready for submission.
+----------------------------------------------
+drivers/staging/greybus/audio_manager_module.c
+----------------------------------------------
+CHECK: Lines should not end with a '('
+#73: FILE: drivers/staging/greybus/audio_manager_module.c:73:
++static ssize_t gb_audio_module_name_show(
+
+CHECK: Lines should not end with a '('
+#83: FILE: drivers/staging/greybus/audio_manager_module.c:83:
++static ssize_t gb_audio_module_vid_show(
+
+CHECK: Lines should not end with a '('
+#93: FILE: drivers/staging/greybus/audio_manager_module.c:93:
++static ssize_t gb_audio_module_pid_show(
+
+CHECK: Lines should not end with a '('
+#103: FILE: drivers/staging/greybus/audio_manager_module.c:103:
++static ssize_t gb_audio_module_intf_id_show(
+
+CHECK: Lines should not end with a '('
+#114: FILE: drivers/staging/greybus/audio_manager_module.c:114:
++static ssize_t gb_audio_module_ip_devices_show(
+
+CHECK: Lines should not end with a '('
+#125: FILE: drivers/staging/greybus/audio_manager_module.c:125:
++static ssize_t gb_audio_module_op_devices_show(
+
+WARNING: char * array declaration might be better as static const
+#162: FILE: drivers/staging/greybus/audio_manager_module.c:162:
++	char *envp[] = {
+
+CHECK: Lines should not end with a '('
+#184: FILE: drivers/staging/greybus/audio_manager_module.c:184:
++int gb_audio_manager_module_create(
+
+total: 0 errors, 1 warnings, 7 checks, 242 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+drivers/staging/greybus/audio_manager_module.c has style problems, please review.
+-----------------------------------------------
+drivers/staging/greybus/audio_manager_private.h
+-----------------------------------------------
+CHECK: Lines should not end with a '('
+#15: FILE: drivers/staging/greybus/audio_manager_private.h:15:
++int gb_audio_manager_module_create(
+
+total: 0 errors, 0 warnings, 1 checks, 27 lines checked
+
+NOTE: For some of the reported defects, checkpatch may be able to
+      mechanically convert to the typical style using --fix or --fix-inplace.
+
+drivers/staging/greybus/audio_manager_private.h has style problems, please review.
+---------------------------------------------
+drivers/staging/greybus/audio_manager_sysfs.c
+---------------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 101 lines checked
+
+drivers/staging/greybus/audio_manager_sysfs.c has no obvious style problems and is ready for submission.
+--------------------------------------
+drivers/staging/greybus/audio_module.c
+--------------------------------------
+total: 0 errors, 0 warnings, 0 checks, 479 lines checked
+
+drivers/staging/greybus/audio_module.c has no obvious style problems and is ready for submission.
+----------------------------------------
+drivers/staging/greybus/audio_topology.c
+----------------------------------------
